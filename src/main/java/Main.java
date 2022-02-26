@@ -2,8 +2,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-//        FlightBuilder flightBuilder = new FlightBuilder();
-        List<Flight> flightList = FlightBuilder.createFlights();
+        FlightBuilder flightBuilder = new FlightBuilder();
+        List<Flight> flightList = flightBuilder.createFlights();
         SegmentFilter segmentFilter = new SegmentFilterImpl();
         segmentFilter.showAllSegments(flightList);
         System.out.println("Filter number - 1. Segments with departure date is after than current time");

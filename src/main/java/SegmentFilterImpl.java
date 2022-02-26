@@ -11,9 +11,6 @@ public class SegmentFilterImpl implements SegmentFilter {
         for (Flight flight :
                 flights) {
             System.out.println("Flight segments - " + flight.getSegments());
-//            for(int i = 0; i < flight.getSegments().size(); i++) {
-//                System.out.println(flight.getSegments().get(i) + " Segment number is " + flight.getSegments().get(i).getId());
-//            }
         }
     }
 

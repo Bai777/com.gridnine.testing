@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 public class Flight {
     private final List<Segment> segments;
 
-    Flight(final List<Segment> segs) {
-        segments = segs;
+    Flight(final List<Segment> segment) {
+        segments = segment;
     }
 
     List<Segment> getSegments() {
